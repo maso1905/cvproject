@@ -74,7 +74,7 @@
     bottom: 50%;
     left: 0;
     right: 0;
-    background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+    background: url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -117,6 +117,8 @@
 footer {
     text-align: center;
     padding-bottom: 2%;
+    width: 80%;
+    margin: 0 auto;
 }
 footer p{
     text-align: center;
@@ -151,13 +153,9 @@ footer p{
         }
     }
     .wrapper{
-        width: 90%;
+        width: 80%;
         margin-left: 0;
         margin-right: 0;
-    }
-
-    footer {
-        width: 90%;
     }
 
     // Work/Education tables
@@ -167,7 +165,6 @@ footer p{
         }
     }
 }
-
 
 // Media queries small screens
 @media screen and (max-width: 768px) and (min-width: 320px){
@@ -201,7 +198,7 @@ footer p{
     }
 
     .wrapper{
-        width: 90%;
+        width: 80%;
         margin-left: 0;
         margin-right: 0;
     }

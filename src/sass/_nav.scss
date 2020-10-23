@@ -6,6 +6,7 @@ $navfont-size: 24px;
 nav {
   background-color: $hovercolor;
   position: relative;
+  margin: 0 auto;
     width: 80%;
     padding-top: 5%;
     text-align: center;
@@ -41,7 +42,7 @@ nav {
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -96,6 +97,6 @@ nav {
         font-size: $navfont-size;  
     }
     nav{
-      width: 90%;
+      width: 80%;
     }
 }

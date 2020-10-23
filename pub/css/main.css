@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, a, button {
   font-family: 'Noto Serif JP', serif; }
 
 body {
-  background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+  background: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +227,7 @@ body {
   bottom: 50%;
   left: 0;
   right: 0;
-  background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+  background: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -285,7 +285,9 @@ body {
 
 footer {
   text-align: center;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  width: 80%;
+  margin: 0 auto; }
 
 footer p {
   text-align: center; }
@@ -334,11 +336,9 @@ footer p {
       max-width: 100%;
       height: 250px; }
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin-left: 0;
     margin-right: 0; }
-  footer {
-    width: 90%; }
   .tables div {
     float: left;
     margin-right: 2.5%;
@@ -406,7 +406,7 @@ footer p {
     .container li:nth-child(1n) {
       margin-right: 0; }
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin-left: 0;
     margin-right: 0; }
   .tables div {
@@ -542,7 +542,7 @@ footer p {
   bottom: 50%;
   left: 0;
   right: 0;
-  background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+  background: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -600,7 +600,9 @@ footer p {
 
 footer {
   text-align: center;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  width: 80%;
+  margin: 0 auto; }
 
 footer p {
   text-align: center; }
@@ -649,11 +651,9 @@ footer p {
       max-width: 100%;
       height: 250px; }
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin-left: 0;
     margin-right: 0; }
-  footer {
-    width: 90%; }
   .tables div {
     float: left;
     margin-right: 2.5%;
@@ -721,7 +721,7 @@ footer p {
     .container li:nth-child(1n) {
       margin-right: 0; }
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin-left: 0;
     margin-right: 0; }
   .tables div {
@@ -735,6 +735,7 @@ footer p {
 nav {
   background-color: rgba(255, 255, 255, 0.548);
   position: relative;
+  margin: 0 auto;
   width: 80%;
   padding-top: 5%;
   text-align: center;
@@ -767,7 +768,7 @@ nav {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url("https://maso1905.github.io/cvproject/pub/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -812,7 +813,7 @@ nav {
   nav a {
     font-size: 18px; }
   nav {
-    width: 90%; } }
+    width: 80%; } }
 
 /* MIXIN */
 /* Tables */
