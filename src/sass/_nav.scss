@@ -1,0 +1,101 @@
+/* NAVIGATION BAR */
+@import 'layout';
+
+$navfont-size: 24px;
+
+nav {
+  background-color: $hovercolor;
+  position: relative;
+    width: 80%;
+    padding-top: 5%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    li {
+      text-align: center;
+      display: inline-block;
+      @include grid(3, 1%); 
+    }
+    li:nth-child(1) {
+      text-align: left;
+    }
+    li:nth-child(3) {
+      text-align: right;
+    }
+      ul {
+      @include clearFix;
+    }
+    a {
+        &:hover{
+            color: $hovercolor;
+        }
+      }
+    }
+
+// Hamburger drop down menu
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: $navfont-size;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+// Media queries medium screens
+@media screen and (max-width: 1040px) and (min-width: 320px){
+    $navfont-size: 18px;
+    .menu-desktop{
+        display: none;
+    }
+    .overlay{ visibility: visible;}
+    .menuicon{ 
+      visibility: visible; 
+      float: right;
+      padding-right: 5%;
+    }
+    .logoicon{
+      visibility: visible;
+      float: left;
+      padding-left: 5%;
+    }
+    nav a{
+        font-size: $navfont-size;  
+    }
+    nav{
+      width: 90%;
+    }
+}

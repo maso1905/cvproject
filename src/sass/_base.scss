@@ -1,0 +1,67 @@
+// Base 
+
+$light: true;
+$boxcolor: none;
+$fontcolor: #4b4c4e;
+$hovercolor: rgba(255, 255, 255, 0.548);
+
+
+h1, #bigCv{ font-size: 50px; }
+h2{ font-size: 24px; }
+h3{ font-size: 20px; }
+h4{ font-size: 18px; }
+h5{ font-size: 16px; }
+h6{ font-size: 14px; }
+
+a,
+li button,
+p{ font-size: 16px; }
+p{
+    text-align: justify;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    a{
+        text-transform: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, a, button{ 
+    text-transform: uppercase; 
+    font-family: 'Noto Serif JP', serif;
+}
+
+
+
+body {
+    //background-color: $bgcolor;
+    background-image: url("/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $fontcolor;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+// Media queries medium screens
+@media screen and (max-width: 1140px) and (min-width: 769px){
+    h1{ font-size: 28px; }
+    h2{ font-size: 26px; }
+    h3{ font-size: 20px; }
+    h4{ font-size: 18px; }
+    h5{ font-size: 14px; }
+    h6{ font-size: 12px; }  
+    nav a { font-size: 20px; }
+}
+
+// Media queries medium screens
+@media screen  and (max-width: 768px)and (min-width: 320px){
+    h1{ font-size: 26px; }
+    h2{ font-size: 20px; }
+    h3{ font-size: 16px; }
+    h4{ font-size: 14px; }
+    h5{ font-size: 13px; }
+    h6{ font-size: 12px; }  
+    nav a { font-size: 14px; }
+}

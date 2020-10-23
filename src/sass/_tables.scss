@@ -1,0 +1,29 @@
+@import 'mixins';
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+   
+    tr{
+        border-bottom: 1px solid $fontcolor;
+        margin-bottom: 1.5%;
+    
+        td{
+            @include grid(4, 1.5%);
+            text-align: right;
+            margin-top: 1.5%;
+
+        }
+        td:nth-child(1),
+        td:nth-child(2){
+            text-align: left;
+        }
+    }
+}
+  
+table tr:nth-child(even){background-color: $hovercolor;}
+  
+table tr:hover {background-color: $hovercolor}
+
+
