@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, a, button {
   font-family: 'Noto Serif JP', serif; }
 
 body {
-  background-image: url("/images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +227,7 @@ body {
   bottom: 50%;
   left: 0;
   right: 0;
-  background-image: url("/images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -542,7 +542,7 @@ footer p {
   bottom: 50%;
   left: 0;
   right: 0;
-  background-image: url("/images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -767,7 +767,7 @@ nav {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url("/images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow-x: hidden;
