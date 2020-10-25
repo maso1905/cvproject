@@ -252,7 +252,8 @@ body {
   text-align: center; }
 
 .tables {
-  text-align: center; }
+  text-align: center;
+  margin-top: 4%; }
   .tables h2 {
     text-align: center;
     margin-top: 3.5%;
@@ -567,7 +568,8 @@ footer p {
   text-align: center; }
 
 .tables {
-  text-align: center; }
+  text-align: center;
+  margin-top: 4%; }
   .tables h2 {
     text-align: center;
     margin-top: 3.5%;

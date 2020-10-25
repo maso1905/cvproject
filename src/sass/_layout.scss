@@ -104,6 +104,7 @@
 // Work/Education tables
 .tables {
     text-align: center;
+    margin-top: 4%;
     @include lines;  
     div{
         @include grid(2, 5%); 
