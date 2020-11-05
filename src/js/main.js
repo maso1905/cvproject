@@ -13,7 +13,7 @@ window.addEventListener('load', getWebsite());
 
 // Functions
 
-// GETs website No. 1 info
+// GETs all website info
 function getWebsite() {
   websiteEl.innerHTML = '';
   fetch('http://studenter.miun.se/~maso1905/dt173g/rest/miun_courses/website.php')
