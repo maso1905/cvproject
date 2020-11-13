@@ -7,7 +7,7 @@ var eduEl = document.getElementById("edu-table"); // Event listener
 window.addEventListener('load', getWork());
 window.addEventListener('load', getEducation());
 window.addEventListener('load', getWebsite()); // Functions
-// GETs website No. 1 info
+// GETs all website info
 
 function getWebsite() {
   websiteEl.innerHTML = '';
